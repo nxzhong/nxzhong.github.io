@@ -1,2 +1,1 @@
-My Personal Website
-Built with Svelte and TailwindCSS
+A personal website built with Sveltekit and TailwindCSS
