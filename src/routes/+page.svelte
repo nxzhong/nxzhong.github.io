@@ -32,9 +32,11 @@
 </svelte:head>
 
 <div class="container py-6 my-72">
+	<h1 class='text-center h-10 text-4xl'>
     {#if visible}
-	<h1 transition:typewriter class='text-center text-4xl'>
-		Coming Soon...
-    </h1>
-{/if}
+		<p transition:typewriter> Coming Soon...</p>
+	{:else}
+		<p> </p>
+	{/if}
+	</h1>
 </div>
